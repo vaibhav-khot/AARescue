@@ -1,0 +1,46 @@
+page-terms {
+// background-image: url($terms-background);
+// background-image: url("../../img/background/bridge-mobile.jpg");
+//   background-position: 0 0;
+//   background-repeat: no-repeat;
+background-image: url($terms-background);
+background-size:cover;
+}
+
+.toolbar-background-md{
+ background:none;
+}
+.toolbar-background-ios{
+background:none
+}
+
+.toolbar-background-wp{
+background:none;
+}
+
+ion-footer {
+padding-bottom: 10%;
+height:20%;
+}
+.logo{
+  display: table;
+  height:50%;
+  width : 100%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.logo1{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.text1{
+
+  height:20%;
+display:block;
+}
+.text2{
+  display:block;
+height:10%;
+}
