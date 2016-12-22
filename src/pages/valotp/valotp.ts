@@ -1,25 +1,22 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-import { ValotpPage } from '../valotp/valotp';
 
 /*
-  Generated class for the Terms page.
+  Generated class for the Valotp page.
 
   See http://ionicframework.com/docs/v2/components/#navigation for more info on
   Ionic pages and navigation.
 */
 @Component({
-  selector: 'page-terms',
-  templateUrl: 'terms.html'
+  selector: 'page-valotp',
+  templateUrl: 'valotp.html'
 })
-export class TermsPage {
+export class ValotpPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {}
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad TermsPage');
+    console.log('ionViewDidLoad ValotpPage');
   }
-agree(){
-  this.navCtrl.push(ValotpPage);
-}
+
 }

@@ -3,11 +3,13 @@ import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
 import { TermsPage } from '../pages/terms/terms';
+import { ValotpPage } from '../pages/valotp/valotp';
 
 @NgModule({
   declarations: [
     MyApp,
-    TermsPage
+    TermsPage,
+    ValotpPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -15,7 +17,8 @@ import { TermsPage } from '../pages/terms/terms';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    TermsPage
+    TermsPage,
+    ValotpPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })
